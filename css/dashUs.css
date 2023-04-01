@@ -1,0 +1,103 @@
+/* navbar */
+header {
+  /* position: fixed;
+  z-index: 999;
+  width: 100%; */
+}
+
+nav {
+  background-color: rgba(156, 156, 156, 0.911);
+  padding: 2rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-img-title:hover {
+  cursor: pointer;
+}
+
+.nav-car-img {
+  width: 4.5rem;
+}
+
+.nav-car-title {
+  text-decoration: none;
+  font-size: 3rem;
+  font-style: oblique;
+  color: black;
+  font: bold;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-left-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  font-size: 2.3rem;
+}
+
+.nav-left:link,
+.nav-left:visited {
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+/* main part */
+.section-show {
+  grid-template-columns: 0.5fr 1.5fr;
+  height: 100vh;
+}
+
+.menu {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-sub{
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(1, 133, 143);
+  border: 1px solid silver;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.history{
+  text-align: center;
+  padding: 2rem;
+  font-size: 2.4rem;
+  background-color: beige;
+  font-weight: bold;
+}
+
+.history-div{
+  min-height: calc(100vh - 30rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.his-main{
+  grid-template-columns: repeat(3,1fr);
+}
+
+.sell-p{
+  padding: 1rem 5rem;
+  font-size: 1.8rem;
+  background-color: antiquewhite;
+}
+
+.sell-h{
+  font-size: 2rem;
+  background-color: rgb(126, 194, 253);
+  padding: 1rem 5rem;
+}

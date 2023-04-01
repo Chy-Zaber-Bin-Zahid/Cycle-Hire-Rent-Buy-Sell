@@ -1,0 +1,109 @@
+/* navbar */
+header {
+  /* position: fixed;
+  z-index: 999;
+  width: 100%; */
+}
+
+nav {
+  background-color: rgba(156, 156, 156, 0.911);
+  padding: 2rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-img-title:hover {
+  cursor: pointer;
+}
+
+.nav-car-img {
+  width: 4.5rem;
+}
+
+.nav-car-title {
+  text-decoration: none;
+  font-size: 3rem;
+  font-style: oblique;
+  color: black;
+  font: bold;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-left-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  font-size: 2.3rem;
+}
+
+.nav-left:link,
+.nav-left:visited {
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+/* main part */
+.section-sell{
+  padding: 5rem;
+
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+
+.sell-h1{
+  background-color: rgb(209, 233, 253);
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+
+}
+
+.sell-buy{
+  width: 70%;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+.sell{
+  border: 3px solid rgb(160, 160, 160);
+  background-color: bisque;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.sell h1{
+  width: 100%;
+  padding: 1rem;
+}
+
+h5{
+  padding: .5rem;
+  font-size: 1.6rem;
+}
+
+input{
+  width: 50%;
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 1.4rem;
+}
+
+.buy{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sell-p{
+  text-align: center;
+  padding: 1rem;
+  background-color: rgb(173, 198, 219);
+  font-size: 1.8rem;
+}
